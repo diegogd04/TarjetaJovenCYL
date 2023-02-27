@@ -2,7 +2,7 @@ package com.dgd.tarjetaJovenCYL.domain.models;
 
 public class Shopping {
     private Integer id;
-    private String fecha;
+    private String date;
 
     private Promotion promotion;
 
@@ -16,12 +16,12 @@ public class Shopping {
         this.id = id;
     }
 
-    public String getFecha() {
-        return fecha;
+    public String getDate() {
+        return date;
     }
 
-    public void setFecha(String fecha) {
-        this.fecha = fecha;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     public Promotion getPromotion() {

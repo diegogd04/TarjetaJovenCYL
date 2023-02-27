@@ -6,7 +6,7 @@ public class Promotion {
     private String description;
     private Integer discount;
 
-    private Promotion promotion;
+    private Company company;
 
     public Integer getId() {
         return id;
@@ -40,11 +40,11 @@ public class Promotion {
         this.discount = discount;
     }
 
-    public Promotion getPromotion() {
-        return promotion;
+    public Company getCompany() {
+        return company;
     }
 
-    public void setPromotion(Promotion promotion) {
-        this.promotion = promotion;
+    public void setCompany(Company company) {
+        this.company = company;
     }
 }
